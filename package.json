@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "echo \"No build step specified\"" 
+    "test": "echo \"No tests specified\"" // Доданий фіктивний скрипт "test"
   },
   "keywords": [],
   "author": "",
