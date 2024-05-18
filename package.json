@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"No tests specified\"",
-    "build": "webpack --config webpack.config.js" // Доданий скрипт "build"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
