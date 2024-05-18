@@ -3,7 +3,7 @@ name: Continuous Integration
 on:
   push:
     branches: [ main ]
-  #workflow_dispatch: 
+  #workflow_dispatch:
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version [18.x, 20.x]
+        node-version: [18.x, 20.x]
 
     - name: Install dependencies
       run: npm install
@@ -25,7 +25,9 @@ jobs:
       run: git clone https://github.com/Vatrych14/Actions.git
       
     - name: Install software
-      
+      run: |
+        # Add commands to install required software
+        
     - name: Download dependencies
       run: npm ci
       
